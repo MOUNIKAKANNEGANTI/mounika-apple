@@ -1,0 +1,492 @@
+body {
+    margin: 0px;
+    
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    background-color:rgba(0, 0, 0, 0.674);
+    text-align: center;
+    padding: 1%;
+    position: sticky;
+    top: 0px
+    ;
+}
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0px 1.4%;
+    font-family: sans-serif;
+    font-size: small;
+}
+.parent-navbar1{
+    background-color: black;
+}
+.navbar1{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.595); 
+    padding: 1%;
+ }
+ .ipad-pro{
+    color: white;
+    text-align: center;
+    padding: 3%;
+ }
+ .ipad-pro h1,p{
+    margin: 0px;
+    padding: 0px;
+ } 
+ .ipad-pro h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+ }
+ .ipad-pro p{
+    font-size: 2.2rem;
+    font-family: sans-serif;
+ }
+ .anchor{ 
+    padding: 2.5%;
+ }
+ .btn1{
+    background-color: rgb(22, 159, 197);
+    color: white;
+    margin-left: 10px;
+    padding: 1% 2%;
+    border-radius: 25px;
+    border: 1px solid  rgb(22, 159, 197);
+    width:fit-content;
+ }
+ .btn2{
+    border: 1px solid rgb(22, 159, 197);
+    padding: 1% 2%;
+    border-radius: 25px;
+    background-color: black;
+    color: rgb(22, 159, 197);
+ }
+ .btn2:hover{
+    background-color: rgb(22, 159, 197);
+    color: white; 
+ }
+ .Mac-for-university{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+ }
+
+ .Mac-for-university img{
+    width: 90%;
+ }
+
+ .Mac-for-university .btn3{
+    border: 1px solid rgb(22, 159, 197);
+    border-radius: 25px;
+    padding: 1% 2%;
+    background-color: white;
+    color: rgb(22, 159, 197);
+ }
+ .btn3:hover{
+    background-color: rgb(22, 159, 197);
+    color: white;
+ }
+
+ .iphone-15-pro{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 3%;
+ }
+
+ .iphone-15-pro h1,p{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .iphone-15-pro h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+ }
+
+ .iphone-15-pro p{
+    font-size: 2rem;
+    font-family: sans-serif;
+ }
+ .iphone-15-pro img{
+    width: 80%;
+ }
+
+ .iphone-15-pro .btn1{
+    background-color: rgb(22, 159, 197);
+    color: white;
+    margin-left: 10px;
+    padding: 1% 2%;
+    border-radius: 25px;
+    border: 1px solid  rgb(22, 159, 197);
+    width:fit-content;
+ }
+ .iphone-15-pro .btn2{
+    border: 1px solid rgb(22, 159, 197);
+    border-radius: 25px;
+    padding: 1% 2%;
+    background-color: black;
+    color: rgb(22, 159, 197);
+ }
+ .btn2:hover{
+    background-color: rgb(22, 159, 197);
+    color: white; 
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f5f5f5;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); 
+   gap: 20px;
+   padding: 20px;
+}
+
+.grid-item1 {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.grid-item1 img {
+   width: 80%; 
+   height: auto;
+   border-radius: 10px;
+   margin-top: 10px; 
+}
+
+.grid-item1 h2 {
+   font-size: 2.7em;
+   margin: 10px 0;
+}
+
+.grid-item1 p {
+   font-size: 1em;
+   color: #555;
+   margin-bottom: 20px; 
+}
+
+.grid-item1 .btn1 {
+   background-color: #0071e3;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item1 .btn2{
+   background-color: white;
+   color: #0071e3;
+   border: 1px solid #0071e3;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item1 .btn2:hover {
+   background-color: #005bb5;
+   color: white;
+}
+
+
+.grid-item2{
+   background-color:black;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.grid-item2 img {
+   width: 100%; 
+   height: auto;
+   border-radius: 10px;
+   margin-top: 10px;
+   object-fit: cover; 
+}
+
+.grid-item2 h3{
+   color: white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px; 
+}
+
+h2.fa-apple {
+   font-size: 1.5em;
+   margin: 10px 0;
+}
+
+.grid-item2 .p1{
+   font-size: 0.7em;
+   color: red;
+   margin-bottom: 10px;
+}
+.grid-item2 .p2 {
+   font-size: 1em;
+   color: white;
+   margin-bottom: 20px; 
+}
+
+.grid-item2 .btn1 {
+   background-color: #0071e3;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item2 .btn2{
+   background-color:black;
+   color: #0071e3;
+   border: 1px solid #0071e3;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item2 .btn2:hover {
+   background-color: #005bb5;
+   color: white;
+}
+
+.grid-item3 {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.grid-item3 img {
+   width: 80%; 
+   height: auto;
+   border-radius: 10px;
+   margin-top: 10px; 
+}
+
+.grid-item3 h2 {
+   font-size: 2.7em;
+   margin: 10px 0;
+}
+
+.grid-item3 .p1{
+   font-size: 1em;
+   color:black;
+   margin-bottom: 20px;  
+}
+
+.grid-item3 .p2 {
+   font-size: 1em;
+   color: #555;
+   margin-bottom: 20px; 
+}
+
+.grid-item3 .btn1 {
+   background-color: #0071e3;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item3 .btn2{
+   background-color: white;
+   color: #0071e3;
+   border: 1px solid #0071e3;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item3 .btn2:hover {
+   background-color: #005bb5;
+   color: white;
+}
+
+.grid-item4 {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.grid-item4 img {
+   width: 80%; 
+   height: auto;
+   border-radius: 10px;
+   margin-top: 10px; 
+}
+
+.grid-item4 h2 {
+   font-size: 2.7em;
+   margin: 10px 0;
+}
+
+.grid-item4 p {
+   font-size: 1em;
+   color: #555;
+   margin-bottom: 20px; 
+}
+
+.grid-item4 .btn1 {
+   background-color: #0071e3;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item4 .btn2{
+   background-color: white;
+   color: #0071e3;
+   border: 1px solid #0071e3;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item4 .btn2:hover {
+   background-color: #005bb5;
+   color: white;
+}
+
+.grid-item5 {
+   background-color: #fff;
+   background-image: url("https://www.apple.com/v/ipad-air/w/images/meta/ipad-air_overview__ofpu7ozyzl6m_og.png?202407250139");  
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.grid-item5 h2 {
+   font-size: 2.7em;
+   margin: 10px 0;
+}
+
+.grid-item5 p {
+   font-size: 1.3em;
+   color: black;
+   margin-bottom: 20px; 
+}
+
+.grid-item5 .btn1 {
+   background-color:black;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item5 .btn2{
+   background-color: transparent;
+   color: black;
+   border: 1px solid black;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.grid-item5 .btn2:hover {
+   background-color: black;
+   color: white;
+}
+.grid-item6 {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.grid-item6 img {
+   width: 80%; 
+   height: auto;
+   border-radius: 10px;
+   margin-top: 10px; 
+}
+
+.grid-item6 h2 {
+   font-size: 3em;
+   margin: 10px 0;
+}
+
+.grid-item6 p {
+   font-size: 1.3em;
+   color: black;
+   margin-bottom: 20px; 
+}
+
+.grid-item6 .btn1 {
+   background-color:#0071e3;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 1em;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.shows{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+
+
+
+
+
+
+
